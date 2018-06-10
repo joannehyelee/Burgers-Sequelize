@@ -22,7 +22,7 @@ var db = require("./models");
 
 // ROUTER
 // ===================================================
-
+require("./routes/api-routes.js")(app);
 
 // SYNC SEQUELIZE MODELS & START EXPRESS APP
 // ===================================================
